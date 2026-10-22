@@ -1,29 +1,31 @@
 # C Programming Repository
 
-> A collection of C programming codes, problem-solving exercises, and fundamental concepts.
-
-This repository serves as a personal log and code bank for mastering the C language. It covers everything from basic syntax to advanced data structures and algorithms.
+A collection of C programming codes, laboratory exercises, and structural problem-solving assignments for mastering the C language.
 
 ## 🗂️ Repository Structure
 
-* **`Basics/`** - Variables, loops, conditionals, and standard input/output.
-* **`Functions/`** - Code modularity, recursion, and scope rules.
-* **`Arrays_Pointers/`** - Memory management, pointer arithmetic, and arrays.
-* **`Data_Structures/`** - Structs, linked lists, stacks, and queues.
-* **`Projects/`** - Mini-projects or slightly larger command-line applications.
+* **`Assignments/`** - Homework, problem sets, and graded programmatic assignments.
+* **`Class_Work/`** - Daily laboratory exercises, lecture examples, and structural code practice.
 
 ## 🛠️ How to Compile and Run the Code
 
-To run these C programs locally, you need a C compiler installed on your system (like `gcc` or `clang`).
+To execute these programs locally, ensure you have a C compiler installed (such as `gcc` or `clang`).
 
-### 1. Compile the file
-Open your terminal or command prompt, navigate to the folder containing the `.c` file, and run:
+### 1. Navigate to the Directory
+Use your terminal to enter the specific folder containing the file:
+```bash
+cd Assignments
+```
+*(Or `cd Class_Work` depending on where the file is located).*
+
+### 2. Compile the Code
+Run the compilation command:
 ```bash
 gcc -o program_name file_name.c
 ```
-*(Replace `program_name` with whatever you want to call the executable, and `file_name.c` with the actual file name).*
+*(Replace `file_name.c` with the actual file you want to compile).*
 
-### 2. Run the executable
+### 3. Run the Executable
 * **On Windows:**
   ```cmd
   program_name.exe
@@ -34,4 +36,4 @@ gcc -o program_name file_name.c
   ```
 
 ## 📝 License
-This project is licensed under the [MIT](LICENSE) License - feel free to use the code for learning purposes.
+This project is licensed under the MIT License. Feel free to use the contents for academic and learning purposes.

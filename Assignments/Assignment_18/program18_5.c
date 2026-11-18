@@ -19,7 +19,7 @@ void Pattern(int iRow, int iCol)
         {
             if((j > 1) && (j != iCol) && (i != 1) && (i != iRow))
             {
-                printf("@\t");
+                printf("*\t");
             }
             else
             {

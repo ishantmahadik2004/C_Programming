@@ -64,5 +64,7 @@ int main()
     {
         printf("First occurence of number is %d",iRet);
     }
+
+    free(p);
     return 0;
 }

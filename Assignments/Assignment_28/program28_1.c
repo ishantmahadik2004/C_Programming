@@ -68,5 +68,7 @@ int main()
     {
         printf("Number is not present");
     }
+
+    free(p);
     return 0;
 }
